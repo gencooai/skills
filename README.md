@@ -7,9 +7,13 @@ AI marketing-analytics skills for the YouCloud ecosystem — let your agent dire
 [English](README.md) | [简体中文](README-CN.md)
 
 ```
-Ask ──▶ Trigger skill ──▶ Verify API Key ──▶ Choose mode ──▶ Call backend AI ──▶ Deliver result
-        slash command     YOUCLOUD_API_KEY  Agentic Exploration /  wait for full        campaign strategy
-                                             Inspiration Mode       response (≤600s)    report / fresh ideas
+   TRIGGER         VERIFY          MODE           CALL          DELIVER
+ ┌───────────┐   ┌───────────┐   ┌───────────┐   ┌───────────┐   ┌───────────┐
+ │    Ask    │──▶│ YOUCLOUD  │──▶│Exploration│──▶│  Backend  │──▶│ Strategy  │
+ │ slash cmd │   │  API Key  │   │    or     │   │    AI     │   │  report   │
+ │           │   │           │   │Inspiration│   │ wait ≤600s│   │  or ideas │
+ └───────────┘   └───────────┘   └───────────┘   └───────────┘   └───────────┘
+   /aggclaw       required       chat_mode       one reply      full result
 ```
 
 ## Commands
