@@ -73,9 +73,9 @@ cp -r skills/aggclaw ~/.codex/skills/
 cp -r skills/aggclaw ~/.workbuddy/skills/
 ```
 
-**QwenWork (千问办公)**
+**QwenWork**
 
-Upload via the UI: left sidebar **Extensions (扩展) → Skills (技能) → Install Skill (安装技能)**, then upload the `SKILL.md` and the files under `references/` from the skill folder. They are recognized and loaded automatically.
+Upload via the UI: left sidebar **Extensions → Skills → Install Skill**, then upload the `SKILL.md` and the files under `references/` from the skill folder. They are recognized and loaded automatically.
 
 ### Configure your API Key
 
@@ -108,7 +108,7 @@ Once installed, type `/aggclaw` (or any command above) in the conversation to ge
 
 ### Get an API Key
 
-All skills authenticate via the `YOUCLOUD_API_KEY` environment variable. The key is obtained the same way for every product: **log in to the product → Profile (个人中心) → Enterprise Info (企业信息)**.
+All skills authenticate via the `YOUCLOUD_API_KEY` environment variable. The key is obtained the same way for every product: **log in to the product → Profile → Enterprise Info**.
 
 | Skill | Eligibility | Product |
 |---|---|---|
@@ -158,7 +158,7 @@ skills/
 │   ├── SKILL.md
 │   └── references/example.md
 ├── README.md                # English (this file)
-├── README-CN.md             # 简体中文
+├── README-CN.md             # Simplified Chinese
 └── LICENSE
 ```
 
