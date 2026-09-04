@@ -1,12 +1,17 @@
 ---
 name: youclaw
-description: 有米云智能营销分析助手，深度拆解广告创意，挖掘品牌投放策略，支持创意策略讨论、营销策略探讨。触发：关键词 分析品牌, 品牌分析, 策略探索, 投放策略, 创意质询, 压力测试, 创意激发, 创意打磨；命令 /youclaw、/youmiyun、/creative-chat、/grill-chat、/grill-youclaw、/grill
+version: 1.2.2
+display_name: 有米云智能营销分析助手
+display_name_en: YouClaw Marketing Insight Assistant
+description: "有米云智能营销分析助手，深度拆解广告创意，挖掘品牌投放策略，支持创意策略讨论、营销策略探讨。触发：关键词 分析品牌, 品牌分析, 策略探索, 投放策略, 创意质询, 压力测试, 创意激发, 创意打磨；命令 /youclaw、/youmiyun、/creative-chat、/grill-chat、/grill-youclaw、/grill"
+description_zh: "有米云智能营销分析助手，对接有数AI，深度拆解广告创意、挖掘品牌投放策略，支持策略探索与创意质询、压力测试、创意打磨。触发：分析品牌/策略探索/投放策略/创意质询；命令 /youclaw、/creative-chat、/grill"
+description_en: "Youmi Cloud marketing analysis assistant powered by YouShu AI. Breaks down ad creatives, uncovers brand advertising strategies, and supports strategy exploration, creative grilling, stress testing and creative polishing. Trigger keywords: brand analysis, ad strategy; commands: /youclaw, /creative-chat, /grill"
 homepage: https://www.youcloud.com
 metadata:
   {
     "openclaw": {
       "slug": "youclaw",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "author": "youcloud",
       "emoji": "📊",
       "requires": {
