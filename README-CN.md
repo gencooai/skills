@@ -1,6 +1,6 @@
-# GencooAI Agent Skills
+# GenCoo AI （原有米云）Agent Skills
 
-有米云生态的 AI 营销分析技能，让智能体直接调用 AppGrowing Global / AppGrowing / 有米有数 / 创意管家 的广告素材与投放策略分析能力。
+GenCoo AI（原有米云 AI 生态） 营销分析技能，让智能体直接调用 AppGrowing Global / AppGrowing / 有米有数 / 创意管家 的广告素材与投放策略分析能力。
 
 ![skills](https://img.shields.io/badge/skills-4-blue) ![auth](https://img.shields.io/badge/auth-YOUCLOUD__API__KEY-orange) ![agent](https://img.shields.io/badge/agent-openclaw-purple)
 
