@@ -1,6 +1,6 @@
-# GencooAI Agent Skills
+# GenCoo AI （formerly YouCloud）Agent Skills
 
-AI marketing-analytics skills for the YouCloud ecosystem — let your agent directly call the ad-creative and campaign-strategy analysis capabilities of AppGrowing Global, AppGrowing, youmiyoushu, and CreativeHub.
+AI marketing-analytics skills for GenCoo Data（formerly YouCloud） — let your agent directly call the ad-creative and campaign-strategy analysis capabilities of AppGrowing Global, AppGrowing, youmiyoushu, and CreativeHub.
 
 ![skills](https://img.shields.io/badge/skills-4-blue) ![auth](https://img.shields.io/badge/auth-YOUCLOUD__API__KEY-orange) ![agent](https://img.shields.io/badge/agent-openclaw-purple)
 
