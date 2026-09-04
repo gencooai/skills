@@ -124,6 +124,14 @@ foreach ($m in $resp) { Invoke-WebRequest -Uri $m.download_url -OutFile "$folder
 - 400/401 auth failed: `API Key authentication failed. Check if your key is active or expired. Get it from AppGrowing Global Profile → Enterprise Info, or contact support.`
 - Other: `Request returned an error (code={code}). Check your API Key permissions, account quota, or contact support.`
 
+## Material Link Template
+
+When an analysis result contains a material ID, splice it into the detail-page link below so the user can click through to view the creative video / ad delivery data:
+
+- **Template**: `https://appgrowing-global.youcloud.com/material/{{ID}}`
+- **Usage**: Replace `{{ID}}` with the actual material ID. For example, ID `abc123` → `https://appgrowing-global.youcloud.com/material/abc123`
+- **Output**: Render as a Markdown link, e.g. `[material abc123](https://appgrowing-global.youcloud.com/material/abc123)`, so the user can click to jump to the detail page.
+
 ## Examples
 
 For full input/output examples, see [references/example.md](references/example.md)

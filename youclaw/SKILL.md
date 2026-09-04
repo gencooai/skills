@@ -105,5 +105,12 @@ Invoke-RestMethod @params | Select-Object -ExpandProperty output
 - 超时："还在分析中，稍后再问我结果或者再次请求。"
 - 其他错误："请求返回错误 (code={code})，请检查API Key权限、账号配额或联系客服"
 
+## 素材链接拼接模板
+当分析结果中包含素材 ID 时，按以下模板拼接为素材详情页链接，方便用户点击跳转查看视频/投放数据：
+
+- **拼接模板**：`https://console.youshu.youcloud.com/material/{{ID}}`
+- **用法**：将 `{{ID}}` 替换为实际素材 ID。例如素材 ID 为 `abc123`，拼接结果为 `https://console.youshu.youcloud.com/material/abc123`
+- **输出规范**：以 Markdown 链接形式呈现，例如 `[素材 abc123](https://console.youshu.youcloud.com/material/abc123)`，让用户可直接点击跳转
+
 ## 示例
 完整输入输出示例请看 [references/example.md](references/example.md)
