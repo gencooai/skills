@@ -84,7 +84,7 @@ See "Get an API Key" below for how to obtain one. Then set the environment varia
 **Linux / macOS**
 
 ```bash
-export YOUCLOUD_API_KEY="your-key-here"   # current terminal session only; add to ~/.zshrc / ~/.bashrc to persist
+export YOUCLOUD_API_KEY="your-key-here" 
 ```
 
 **Windows PowerShell**
