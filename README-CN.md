@@ -85,7 +85,7 @@ Key 的获取方式见上文「获取 API Key」。拿到后按系统设置环�
 **Linux / macOS**
 
 ```bash
-export YOUCLOUD_API_KEY="your-key-here"   # 当前终端会话生效，写入 ~/.zshrc / ~/.bashrc 可永久生效
+export YOUCLOUD_API_KEY="your-key-here" 
 ```
 
 **Windows PowerShell**
